@@ -1,0 +1,414 @@
+.cme1FirstDiv{
+    max-width: 1080px;
+    margin: 3% auto;
+    
+}
+
+.cme1SecondDiv{
+    width: 70%;
+    background-color: #eaa022;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 20px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cme1SecondDivFirstPara{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cme1ThirdDiv{
+    width:70%;
+    margin: 2% auto;
+}
+
+.cme1ThirdDivFirstPara{
+    color: gray;
+    margin-left: 1%;
+}
+
+.MediaAttendeeThirdDiv{
+    width: 70%;
+   /*  margin: 0 auto; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin: 3% auto;
+}
+
+.MediaAttendeeImage{
+    height: 200px;
+    width: 100%;
+}
+
+.MediaAttendeeFourthDiv{
+    width: 30%;
+    height: 370px;
+    transition: all 200ms;
+}
+
+.MediaAttendeeFourthDiv:hover{
+  transform: scale(1.03);
+  box-shadow: 5px 5px 5px #7c7a7a,-5px -5px 5px #7c7a7a;
+}
+
+.cme1cardFirstPara{
+    color: #eaa022;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cme1cardSecondPara{
+    margin-top: -8%;
+    text-align: center;
+    color:gray;
+}
+
+.cme1FifthDiv{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.cme1SixthDivFirstPara{
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cme1SixthDivSecondPara{
+    color: gray;
+}
+
+.cme1SeventhDivImg{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*Media Query For Collarge Section*/
+
+@media (max-width:1000px){
+    .cme1SeventhDivImg{
+        height: 180px;
+        width: 260px;
+    }
+}
+
+@media(max-width:910px){
+    .cme1SixthDiv{
+        margin-top: -10px;
+    }
+}
+
+@media(max-width:840px){
+    .cme1FifthDiv{
+        width: 80%;
+    }
+}
+
+@media(max-width:760px){
+    .cme1FifthDiv{
+        width: 80%;
+      
+    }
+    .cme1SeventhDivImg{
+        height: 190px;
+        width: 230px;
+    }
+}
+
+@media(max-width:690px){
+    .cme1SixthDiv{
+        margin-top: -20px;
+    }
+}
+
+@media(max-width:650px){
+    .cme1SixthDivFirstPara{
+        font-size: 18px;
+    }
+    
+    .cme1SixthDivSecondPara{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:600px){
+    .cme1SeventhDivImg{
+        height: 170px;
+        width: 200px;
+    }
+}
+
+@media(max-width:545px){
+    .cme1SixthDivSecondPara{
+        margin-top: -10px;
+    }
+}
+
+@media(max-width:521px){
+    .cme1SixthDivFirstPara{
+        font-size: 16px;
+    }
+    
+    .cme1SixthDivSecondPara{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:480px){
+    .cme1FifthDiv{
+        width: 95%;
+      
+    }
+    .cme1SeventhDivImg{
+        height: 150px;
+        width: 170px;
+    }
+}
+
+@media(max-width:371px){
+    .cme1SixthDivFirstPara{
+        font-size: 14px;
+    }
+    
+    .cme1SixthDivSecondPara{
+        font-size: 10px;
+        word-spacing: 0.5px;
+    }
+    .cme1SeventhDivImg{
+        height: 140px;
+        width: 150px;
+    }
+}
+
+@media (max-width:305px){
+    .cme1SixthDivFirstPara{
+        font-size: 12px;
+    }
+    .cme1SixthDivSecondPara{
+        font-size: 9px;
+        word-spacing: 0.3px;
+    }
+}
+
+@media (max-width:920px){
+    .MediaAttendeeThirdDiv{
+        width: 80%;
+    }
+
+    .MediaAttendeeImage{
+        height: 180px;
+        width: 100%;
+    }
+    
+    .MediaAttendeeFourthDiv{
+        width: 30%;
+        height: 370px;
+        transition: all 200ms;
+    }
+  
+}
+
+@media(max-width:780px){
+
+    .MediaAttendeeThirdDiv{
+        width: 90%;
+    }
+   
+    .MediaAttendeeImage{
+        height: 140px;
+        width: 100%;
+    }
+    
+    .MediaAttendeeFourthDiv{
+        width: 30%;
+        height: 340px;
+        transition: all 200ms;
+    }
+
+}
+
+@media(max-width:650px){
+   
+    
+    .MediaAttendeeFourthDiv{
+        width: 30%;
+        height: 340px;
+        transition: all 200ms;
+    }
+
+    .cme1cardFirstPara{
+        font-size: 14px;
+    }
+    
+    .cme1cardSecondPara{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:600px){
+    .cme1SecondDiv{
+        width:80%;
+    }
+
+    .cme1ThirdDiv{
+        width:80%;
+        margin: 2% auto;
+    }
+
+    .cme1ThirdDivFirstPara{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:580px){
+    
+    .MediaAttendeeImage{
+        height: 120px;
+        width: 100%;
+    }
+    
+    .MediaAttendeeFourthDiv{
+        width: 30%;
+        height: 300px;
+        transition: all 200ms;
+    }
+
+    .cme1cardFirstPara{
+        font-size: 14px;
+    }
+    
+    .cme1cardSecondPara{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:521px){
+    .cme1SecondDivFirstPara{
+        font-size: 16px;
+    }
+
+    
+    .cme1ThirdDivFirstPara{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:510px){
+    .MediaAttendeeThirdDiv{
+        width: 95%;
+    }
+}
+
+@media (max-width:480px){
+    .MediaAttendeeThirdDiv{
+        width: 100%;
+    }
+
+    .MediaAttendeeFourthDiv{
+        width: 30%;
+        height: 320px;
+        transition: all 200ms;
+    }
+    .cme1cardFirstPara{
+        font-size: 12px;
+    }
+    
+    .cme1cardSecondPara{
+        font-size: 12px;
+    }
+}
+
+ @media(max-width:466px){
+    .cme1SecondDiv{
+        height: 30px;
+    }
+    .cme1SecondDivFirstPara{
+        font-size: 14px;
+    }
+ }
+
+ @media(max-width:411px){
+    .cme1SecondDivFirstPara{
+        font-size: 12px;
+    }
+ }
+
+@media (max-width:386px){
+
+    .MediaAttendeeImage{
+        height: 100px;
+        width: 100%;
+    }
+
+    .cme1cardSecondPara{
+        font-size: 10px;
+    }
+
+    .MediaAttendeeFourthDiv{
+        width: 30%;
+        height: 260px;
+        transition: all 200ms;
+    }
+
+}
+
+@media(max-width:356px){
+    .cme1SecondDivFirstPara{
+        font-size: 10px;
+    }
+    .cme1SecondDiv{
+        height: 25px;
+    }
+}
+
+@media(max-width:350px){
+    .MediaAttendeeImage{
+        height: 90px;
+        width: 100%;
+    }
+}
+
+@media(max-width:325px){
+    .cme1cardFirstPara{
+        font-size: 10px;
+    }
+    .cme1cardSecondPara{
+        font-size: 9px;
+    }
+    .cme1MediaAttendeeFourthDiv{
+        width: 30%;
+        height: 240px;
+        transition: all 200ms;
+    }
+}
+
+@media (max-width:305px){
+    .cme1SecondDiv{
+        width: 90%;
+    }
+    .cme1ThirdDiv{
+        width:90%;
+    }
+}
+
+@media(max-width:290px){
+    .cme1cardSecondPara{
+        font-size: 8.5px;
+    }
+}

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./Component/Navbar"
+import FirstHeading from './Component/FirstHeading';
+import CME1 from './Component/CME1';
+import CME2 from './Component/CME2';
+import CME3 from './Component/CME3';
+import CME4 from './Component/CME4';
+import SecondLastFooter from './Component/SecondLastFooter';
+import Footer from './Component/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <FirstHeading/>
+      <CME1/>
+      <CME2/>
+      <CME3/>
+      <CME4/>
+      <SecondLastFooter/>
+      <Footer/>
     </div>
   );
 }

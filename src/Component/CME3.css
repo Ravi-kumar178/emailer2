@@ -1,0 +1,177 @@
+.cme3FirstDiv{
+    max-width: 1080px;
+    margin: 3% auto;
+}
+
+
+.cme3MediaAttendeeThirdDiv{
+    width: 100%;
+   /*  margin: 0 auto; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin: 3% auto;
+}
+
+.cme3MediaAttendeeImage{
+    height: 160px;
+    width: 100%;
+}
+
+.cme3MediaAttendeeFourthDiv{
+    width: 200px;
+    height: 350px;
+    transition: all 200ms;
+}
+
+.cme3MediaAttendeeFourthDiv:hover{
+  transform: scale(1.03);
+  box-shadow: 5px 5px 5px #7c7a7a,-5px -5px 5px #7c7a7a;
+}
+
+.cme3cardFirstPara{
+    color: #eaa022;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cme3cardSecondPara{
+    margin-top: -8%;
+    text-align: center;
+    color: gray;
+}
+
+
+
+/*Media Query for Cards*/
+@media(max-width:800px){
+    .cme3MediaAttendeeFourthDiv{
+        height: 370px;  
+    }
+}
+
+@media(max-width:750px){
+    .cme3MediaAttendeeFourthDiv{
+        height: 350px;  
+    }
+    .cme3MediaAttendeeImage{
+        height: 140px;
+        width: 100%;
+    }
+}
+
+@media(max-width:660px){
+    .cme3MediaAttendeeFourthDiv{
+        height: 400px;  
+    }
+}
+
+@media(max-width:650px){
+
+    .cme3MediaAttendeeFourthDiv{
+        height: 340px;  
+    }
+   
+    .cme3cardFirstPara{
+        font-size: 14px;
+    }
+    
+    .cme3cardSecondPara{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:600px){
+    .cme3MediaAttendeeImage{
+        height: 125px;
+    }
+}
+
+@media(max-width:565px){
+    .cme3MediaAttendeeImage{
+        height: 120px;
+    }
+    .cme3cardFirstPara{
+        font-size: 13px;
+    }
+    
+    .cme3cardSecondPara{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:525px){
+    .cme3MediaAttendeeImage{
+        height: 115px;
+    }
+}
+
+@media(max-width:498px){
+    .cme3MediaAttendeeFourthDiv{
+        height: 300px;  
+    }
+    .cme3MediaAttendeeImage{
+        height: 110px;
+    }
+    .cme3cardFirstPara{
+        font-size: 12px;
+    }
+    
+    .cme3cardSecondPara{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:450px){
+    .cme3MediaAttendeeImage{
+        height: 100px;
+    }
+    
+}
+
+@media(max-width:400px){
+    .cme3MediaAttendeeFourthDiv{
+        height: 300px;  
+    }
+    .cme3cardFirstPara{
+        font-size: 11px;
+    }
+    
+    .cme3cardSecondPara{
+        font-size: 11px;
+    }
+}
+
+@media(max-width:350px){
+    .cme3MediaAttendeeFourthDiv{
+        height: 280px;  
+    }
+    .cme3MediaAttendeeImage{
+        height: 90px;
+    }
+    .cme3cardFirstPara{
+        font-size: 10px;
+    }
+    
+    .cme3cardSecondPara{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:310px){
+    .cme3MediaAttendeeFourthDiv{
+        height: 250px;  
+    }
+    .cme3MediaAttendeeImage{
+        height: 85px;
+    }
+    .cme3cardFirstPara{
+        font-size: 9px;
+    }
+    
+    .cme3cardSecondPara{
+        font-size: 9px;
+    }
+}
